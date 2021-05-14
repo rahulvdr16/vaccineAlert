@@ -3,15 +3,15 @@
 
 ### Installation
 Requires python packages requests and schedule. Install them using the following command
-'''sh
+```sh
 pip install requests schedule
-'''
+```
 
 ### Usage
 Run the script as follows:
-'''sh
+```sh
 python3 vaccineAlert.py --pin PINCODE
-'''
+```
 > Make sure the following environment variable are set with appropriate values:
 >   TELEGRAM_BOT_TOKEN
 >   TELEGRAM_CHAT_ID
